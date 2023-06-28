@@ -113,6 +113,10 @@ letter-spacing: 0.04em;
 cursor: pointer;
 }
 
+.hero-btn:hover {
+    color: #404BBF;
+}
+
 /*!---------------- ADVANTAGES ----------------*/
 
 .advantages {
