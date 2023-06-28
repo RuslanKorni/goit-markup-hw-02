@@ -1,0 +1,278 @@
+:root {
+
+}
+
+body {
+    font-family: 'Roboto','Raleway','sans-serif';
+    background-color: #FFF;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+.list {
+    list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+/*!---------------- HEADER -------------*/
+
+.page-header {
+}
+
+.header-navigation {
+}
+
+.header-logo {
+color: #4D5AE5;
+font-size: 18px;
+font-family: Raleway;
+font-weight: 800;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+.header-logo-accent {
+color: #2E2F42;
+}
+
+.header-link-list {
+}
+
+.header-link-item {
+}
+
+.header-link {
+color: #2E2F42;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+.header-link:hover,
+.header-link:focus {
+    color: #404BBF;
+}
+
+.header-address {
+}
+
+.header-address-list {
+}
+
+.header-address-item {
+}
+
+.header-address-link {
+color: #434455;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+.header-address-link:hover {
+    color: #404BBF;
+}
+
+/*!---------------- HERO ----------------*/
+
+.hero {
+    background-color: #2E2F42;
+}
+.hero-title {
+color: #FFF;
+text-align: center;
+font-size: 56px;
+font-weight: 700;
+line-height: 1.08;
+letter-spacing: 0.02em;
+}
+.hero-btn {
+background-color: #4D5AE5;
+color: #FFF;
+font-size: 16px;
+font-family: Roboto;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
+cursor: pointer;
+}
+
+/*!---------------- ADVANTAGES ----------------*/
+
+.advantages {
+}
+
+.advantages-list {
+}
+
+.advantages-item {
+}
+
+.advantages-subtitle {
+color: #2E2F42;
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+
+.advantages-item-text {
+color: #434455;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+/*!----------------- DOING -------------*/
+
+.doing {
+}
+
+.duing-title {
+color: #2E2F42;
+text-align: center;
+font-size: 36px;
+font-weight: 700;
+line-height: 1.1;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+}
+
+.doing-list {
+}
+
+.doing-item {
+}
+
+.doing-img {
+}
+
+/*!-------------- TEAM ---------------*/
+
+.team {
+    background-color: #F4F4FD;
+}
+.team-title {
+color: #2E2F42;
+text-align: center;
+font-size: 36px;
+font-weight: 700;
+line-height: 1.1;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+}
+.team-list {  
+}
+
+.team-item {
+    background-color: #FFFFFF;
+}
+.team-img {
+}
+.team-subtitle {
+color: #2E2F42;
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+.team-text {
+color: #434455;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+/*!------------------ FOOTER -------------*/
+
+.page-footer {
+    background-color: #2E2F42;
+}
+.footer-logo {
+color: #4D5AE5;
+font-size: 18px;
+font-family: Raleway;
+font-weight: 800;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+.footer-logo-accent {
+color: #F4F4FD;
+}
+.footer-text {
+color: #F4F4FD;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+/**------------- PORTFOLIO -------------*/
+/* Класи хедер і футер перевикористав з index.html*/
+/*!------------ MAIN-HERO -----------*/
+.main-hero {
+}
+
+.main-hero-list {
+}
+
+.main-hero-item {
+    
+}
+
+.main-hero-btn {
+color: #4D5AE5;
+text-align: center;
+font-size: 16px;
+font-family: Roboto;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
+cursor: pointer;
+}
+
+/*!------------------ PROJECT -------------*/
+
+.project {
+}
+
+.project-list {
+}
+
+.project-item {
+}
+
+.project-img {
+}
+
+.project-subtitle {
+color: #2E2F42;
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+
+.project-text {
+color: #434455;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
