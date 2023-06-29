@@ -2,7 +2,7 @@
     --iris: #4D5AE5;
     --navyblue: #2E2F42;
     --slate: #434455;
-    --white: #FFF;
+    --white: #FFFFFF;
     --cloud: #F4F4FD;
     --ocean: #404BBF;
 }
@@ -29,7 +29,7 @@ body {
   */
 
 .list {
-    list-style-type: none;
+    list-style: none;
 }
 
 .link {
@@ -193,7 +193,7 @@ font-weight: 700;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
-text-align: center;
+text-align: center
 }
 
 .team-list {
@@ -262,13 +262,20 @@ letter-spacing: 0.02em;
 }
 
 .portfolio-btn {
+background-color: var(--cloud)
 color: var(--iris, #4D5AE5);
 font-size: 16px;
-font-family: 'Roboto','sans-serif';
+font-family: "Roboto", sans-serif;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.04em;
 cursor: pointer;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+    background-color: #404BBF;
+    color: #FFFFFF;
 }
 
 .project-list {
