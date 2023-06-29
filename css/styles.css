@@ -10,6 +10,7 @@
 body {
     font-family: "Roboto",sans-serif;
     color: #434455;
+    background-color: var(--white);
 }
 
 /*
@@ -109,6 +110,7 @@ font-size: 56px;
 font-weight: 700;
 line-height: 1.07;
 letter-spacing: 0.02em;
+text-align: center;
 }
 .hero-btn {
 background-color: var(--iris);
@@ -167,6 +169,7 @@ font-weight: 700;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
+text-align: center;
 }
 .doing-list {
 }
@@ -190,6 +193,7 @@ font-weight: 700;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
+text-align: center;
 }
 
 .team-list {
@@ -228,8 +232,8 @@ color: var(--iris, #4D5AE5);
 font-size: 18px;
 font-family: 'Raleway',sans-serif;
 font-weight: 800;
-line-height: 21px;
-letter-spacing: 0.54px;
+line-height: 1.17;
+letter-spacing: 0.03em;
 text-transform: uppercase;
 }
 
