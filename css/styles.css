@@ -9,7 +9,7 @@
 
 body {
     font-family: "Roboto",sans-serif;
-    color: #434455;
+    color: var(--slate);
     background-color: var(--white);
 }
 
@@ -59,7 +59,7 @@ letter-spacing: 0.02em;
 
 .header-link:hover,
 .header-link:focus {
-color:  #404bbf ;
+color: var(--ocean);
 }
 
 .header-address {
@@ -110,7 +110,7 @@ cursor: pointer;
 
 .hero-btn:hover,
 .hero-btn:focus {
-    background-color: #404BBF;
+    background-color: var(--ocean);
 }
 
 /*!---------------- ADVANTAGES ----------------*/
@@ -259,8 +259,8 @@ cursor: pointer;
 
 .portfolio-btn:hover,
 .portfolio-btn:focus {
-    background-color: #404BBF;
-    color: #FFFFFF;
+    background-color: var(--ocean);
+    color: var(--white);
 }
 
 .project-list {
